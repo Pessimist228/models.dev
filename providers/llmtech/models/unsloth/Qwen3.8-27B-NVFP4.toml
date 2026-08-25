@@ -9,7 +9,7 @@ values = ["low", "medium", "xhigh"]
 
 [cost]
 input = 0.25
-output = 2.2
+output = 2.09
 cache_read = 0.04
 
 [limit]
