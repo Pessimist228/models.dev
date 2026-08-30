@@ -5,7 +5,7 @@
 # streaming deltas use `reasoning_content`.
 
 base_model = "alibaba/qwen3.8-27b"
-attachment = false
+attachment = true
 
 [[reasoning_options]]
 type = "toggle"
@@ -20,4 +20,4 @@ output = 2.09
 cache_read = 0.04
 
 [modalities]
-input = ["text"]
+input = ["text", "image"]
